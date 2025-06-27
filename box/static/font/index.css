@@ -1,0 +1,44 @@
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: 'custom-icon'; /* Project id 4736620 */
+    src: url('//at.alicdn.com/t/c/font_4736620_i5ojed6hhph.woff2?t=1730876059285') format('woff2'),
+         url('//at.alicdn.com/t/c/font_4736620_i5ojed6hhph.woff?t=1730876059285') format('woff'),
+         url('//at.alicdn.com/t/c/font_4736620_i5ojed6hhph.ttf?t=1730876059285') format('truetype');
+  }
+
+.custom-icon {
+    font-family: "custom-icon" !important;
+    font-size: 20px;
+    line-height: 20px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-icon-tupian:before {
+    content: "\e8ba";
+}
+
+.custom-icon-shipin:before {
+    content: "\e62d";
+}
+
+.custom-icon-fenxiang:before {
+    content: "\e68c";
+}
+
+.custom-icon-wode:before {
+    content: "\e7b5";
+}
+
+.custom-icon-shouye:before {
+    content: "\e600";
+}
+
+@font-face {
+    font-family: "YouSheBiaoTiHei-2";
+    font-weight: 400;
+    src: url("./YouSheBiaoTiHei-2.ttf") format("ttf"),
+        url("./YouSheBiaoTiHei-2.woff") format("woff");
+    font-display: swap;
+}
